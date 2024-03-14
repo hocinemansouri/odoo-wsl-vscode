@@ -154,22 +154,31 @@ default=odoo
 #### Configure Odoo WSL with VSCode
 1. Install WSL extension
 - From extensions 
+
 ![Extensions](src/images/image-2.png)
 - Search for `wsl` in search bar
+
 ![Extensions search](src/images/image-3.png)
 - Install `wsl`, then reload VSCode.
+
 ![WSL install page](src/images/image-4.png)
 
 2. Start WSL
 - In the bottom left click on WSL Icon
+
 ![WSL icon](src/images/image-6.png)
 3. Connect to WSL
+
 ![Connect WSL](src/images/image-7.png)
 3. After connecting, click on vscode explorer and click on **Open Folder** 
+
 ![Open Folder](src/images/image-8.png)
+
 4. From the dropdown popup navigate to the **odoo-server** folder, and Press **OK**.
+
 ![Navigate to odoo-server](src/images/image-9.png)
 5. Install python extension in WSL environment
+
 ![Install python - WSL](src/images/image-10.png)
 
 ----------
@@ -180,9 +189,13 @@ default=odoo
 ![Run and Debug](src/images/image-11.png)
 
 2. Click on create launch.json file then select **Python Debugger**, then **Python File**
+
 ![launch.json](src/images/image-12.png)
+
 ![alt text](src/images/image-13.png)
+
 ![alt text](src/images/image-14.png)
+
 3. Paste this in your launch.json file:
 ```
 {
@@ -210,6 +223,8 @@ default=odoo
 }
 ```
 4. Run
+
 ![Run](src/images/image-15.png)
 5. And **Open in browser** 
+
 ![Open in browser](src/images/image-16.png)
