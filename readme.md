@@ -156,9 +156,11 @@ default=odoo
 - From extensions 
 
 ![Extensions](src/images/image-2.png)
+
 - Search for `wsl` in search bar
 
 ![Extensions search](src/images/image-3.png)
+
 - Install `wsl`, then reload VSCode.
 
 ![WSL install page](src/images/image-4.png)
@@ -228,6 +230,7 @@ default=odoo
 4. Run
 
 ![Run](src/images/image-15.png)
+
 5. And **Open in browser** 
 
 ![Open in browser](src/images/image-16.png)
