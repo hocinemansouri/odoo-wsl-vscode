@@ -178,6 +178,7 @@ default=odoo
 1. click on Run and Debug icon as shown
 
 ![Run and Debug](src/images/image-11.png)
+
 2. Click on create launch.json file then select **Python Debugger**, then **Python File**
 ![launch.json](src/images/image-12.png)
 ![alt text](src/images/image-13.png)
