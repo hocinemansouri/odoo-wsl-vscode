@@ -176,6 +176,7 @@ default=odoo
 
 #### Final Step: Configure VSCode Run and Debug
 1. click on Run and Debug icon as shown
+
 ![Run and Debug](src/images/image-11.png)
 2. Click on create launch.json file then select **Python Debugger**, then **Python File**
 ![launch.json](src/images/image-12.png)
