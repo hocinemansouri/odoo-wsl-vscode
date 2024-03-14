@@ -167,17 +167,20 @@ default=odoo
 - In the bottom left click on WSL Icon
 
 ![WSL icon](src/images/image-6.png)
+
 3. Connect to WSL
 
 ![Connect WSL](src/images/image-7.png)
-3. After connecting, click on vscode explorer and click on **Open Folder** 
+
+4. After connecting, click on vscode explorer and click on **Open Folder** 
 
 ![Open Folder](src/images/image-8.png)
 
-4. From the dropdown popup navigate to the **odoo-server** folder, and Press **OK**.
+5. From the dropdown popup navigate to the **odoo-server** folder, and Press **OK**.
 
 ![Navigate to odoo-server](src/images/image-9.png)
-5. Install python extension in WSL environment
+
+6. Install python extension in WSL environment
 
 ![Install python - WSL](src/images/image-10.png)
 
