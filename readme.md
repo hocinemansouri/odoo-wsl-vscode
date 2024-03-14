@@ -1,3 +1,4 @@
+### Installation of Odoo 16 using WSL, and configure it with VSCode
 #### Install WSL
 To install WSL (Windows Subsystem for Linux) on Windows 11 from Command Prompt, use these steps:
 
@@ -13,6 +14,7 @@ To install WSL (Windows Subsystem for Linux) on Windows 11 from Command Prompt, 
 
 Once you complete the steps, the required Linux.
 components will install automatically on Windows 11 and the latest version of the Ubuntu Linux distribution.
+
 ----------
 
 #### Update WSL kernel
@@ -28,11 +30,13 @@ To update the WSL kernel from Command Prompt on Windows 11, use these steps:
 ![alt](https://i0.wp.com/pureinfotech.com/wp-content/uploads/2020/11/update-wsl-command-windows11.jpg?w=1011&quality=78&strip=all&ssl=1)
 
 After you complete the steps, if an update is available, it will download and install on your computer.
+
 ----------
 
 #### Install ubuntu 20.04.6 LTS from Microsoft store
 Download it, then run it
 [Link to install ubuntu 20.04.6 LTS on Microsoft store](https://www.microsoft.com/store/productId/9MTTCL66CPXJ?ocid=pdpshare)
+
 ----------
 
 #### Pre-Install Odoo 16
@@ -144,6 +148,7 @@ source odoo-venv/bin/activate
 default=odoo
 ```
 - Restart WSL, write is your PowerShell windo `wsl --shutown`, then start it again by running `wsl` command.
+
 ----------
 
 #### Configure Odoo WSL with VSCode
@@ -166,6 +171,7 @@ default=odoo
 ![Navigate to odoo-server](image-9.png)
 5. Install python extension in WSL environment
 ![Install python - WSL](image-10.png)
+
 ----------
 
 #### Final Step: Configure VSCode Run and Debug
